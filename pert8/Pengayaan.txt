@@ -1,0 +1,16 @@
+Setelah anda menyelesaikan kode, tolong jawab pertanyaan dibawah ini ya =
+
+
+1. Apa tujuan utama adanya interface dalam pemrograman berorientasi objek, dan bagaimana interface membantu menciptakan kontrak perilaku?
+2. Mengapa interface dapat memiliki banyak implementasi, dan apa makna konseptual dari kemampuan tersebut dalam desain sistem?
+3. Apa perbedaan mendasar antara extends dan implements dalam konteks interface, jika dilihat secara konsep tanpa melihat contoh kode?
+4. Apa alasan diperkenalkannya default method dalam interface, dan bagaimana fitur ini memengaruhi keberlangsungan (compatibility) suatu sistem yang sudah berjalan?
+5. Bagaimana konsep multiple interface memperluas fleksibilitas desain tanpa menimbulkan masalah kompleksitas yang biasa muncul pada multiple inheritance?
+
+jawaban
+1. agar class class yang mewarisinya punya perilaku yang sama. intinya sebagai aturan umum. contoh interface kendaraan, ngegas. berarti mobil juga harus bisa ngegas.
+itu agar class anak punya aturan dan ngga asal punya method.
+2. karena interface cuma aturan atau kontraknya saja. jadi banyak class boleh punya cara kerja beda beda tapi tetap dengan aturan interface yang sama.
+3. extends itu mewairisi sifat dari class induk. sedangkan implements itu mewarisi aturan yang sudah di buat oleh interface.
+4. agar interface bisa ditambah method baru tanpa merusak class lama yang sudah mengimplementasikan interface tersebut.
+5. karena yang diwarisi hanya aturan, bukan kode, jadi class bebas mengambil banyak interface sekaligus tanpa konflik.

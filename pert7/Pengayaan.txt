@@ -1,0 +1,15 @@
+Pertanyaan Refleksi
+Setelah menyelesaikan kode, jawab pertanyaan berikut:
+
+1. Apa perbedaan antara interface dengan class biasa?
+2. Mengapa interface tidak memiliki implementasi method di dalamnya?
+3. Apa tujuan penggunaan keyword "implements" pada sebuah class?
+4. Apakah sebuah class dapat mengimplementasikan lebih dari satu interface? Jelaskan dan berikan contoh sederhana.
+5. Jika sebuah class mengimplementasikan interface, apa yang terjadi jika class tersebut tidak mengimplementasikan semua method dari interface tersebut?
+
+Jawaban
+1. interface hanya bisa berisi method kosong. sedangkan class biasa bisa punya atribut method isi, dll.
+2. karena interface hanya 'kontrak' saja, jadi subclass yang harus implementasi method method pada interface.
+3. untuk menyatakan kelas tersebut merupakan warisan dari interface dan wajib override semua method kosong pada interface
+4. bisa, contohnya ada 2 interface kendaraan dan mobil. maka mobil nasihuyy bisa implements 2 interface tersebut.
+5. akan error
